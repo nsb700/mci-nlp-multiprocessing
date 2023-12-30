@@ -23,7 +23,7 @@ try:
 except:
     pass
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract' 
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract' 
 
 
 def getIcdDict(filename: str):
